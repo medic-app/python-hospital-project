@@ -34,6 +34,7 @@ def getting_details_new_reg():
     reg_marital_status = input('Enter your marital status: \n')
     reg_previous_illness = input('Enter your previous illness: \n')
     reg_current_illness=input('Enter current illness: \n')
+    address=input('address: ')
 
     details=[reg_first_name,reg_last_name,reg_phone_number,email,reg_dob,reg_marital_status,reg_previous_illness,
                  reg_current_illness]
